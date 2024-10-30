@@ -35,7 +35,7 @@ router.get(
   passport.authenticate("discord", { failureRedirect: "/login" }),
   (req, res) => {
     // Redirect to the dashboard on successful login
-    res.redirect("http://localhost:5173/dashboard"); // Change this to your frontend dashboard URL
+    res.redirect("http://localhost:5173/navbar"); // Change this to your frontend dashboard URL
   }
 );
 
